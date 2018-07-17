@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var PORT = process.env.PORT || 5000;
+var port = process.env.PORT || 5000;
 
 http.createServer(function (request, response) {
     console.log('request ', request.url);
