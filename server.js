@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var port = process.env.PORT || 8125;
+var port = process.env.PORT || 3000;
 
 http.createServer(function (request, response) {
     console.log('request ', request.url);
@@ -51,5 +51,5 @@ http.createServer(function (request, response) {
         }
     });
 
-}).listen(8125);
-console.log('Server running at http://127.0.0.1:5000/');
+}).listen(3000);
+console.log('Server running at http://127.0.0.1:3000/');
